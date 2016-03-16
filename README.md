@@ -1,4 +1,4 @@
-# Cordova Revers Plugin
+# Cordova Reverse Plugin
 
 Simple plugin that returns your string with the characters reversed.
 
