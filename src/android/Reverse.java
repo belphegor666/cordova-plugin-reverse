@@ -32,8 +32,8 @@ public class Reverse  extends CordovaPlugin{
         //TODO implement reverse routine
         String outStr = "";
         if (inStr != null && !inStr.equals("")) {
-            for(int i=inStr.length(); i>-1; i--) {
-                outStr += inStr.charAt(i);
+            for(int i=inStr.length(); i>0; i--) {
+                outStr += inStr.charAt(i-1);
             }
         }
         return outStr;
