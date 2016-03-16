@@ -30,6 +30,12 @@ public class Reverse  extends CordovaPlugin{
 
     private String reverseString (String inStr) {
         //TODO implement reverse routine
-        return inStr;
+        String outStr = "";
+        if (inStr != null && !inStr.equals("")) {
+            for(int i=inStr.length(); i>-1; i--) {
+                outStr += inStr.charAt(i);
+            }
+        }
+        return outStr;
     }
 }
